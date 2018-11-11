@@ -81,6 +81,7 @@ gearupStand addAction
 		"<t color='#FF0000'>Teleport to Drug peninsula</t>",
 		{
 		comment "Teleport to Drug";
+		player setPos [14257.2,13032.5,0];
 		},
 	]
 
