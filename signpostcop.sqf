@@ -90,6 +90,7 @@ gearupstand addAction
 				[
 					"<t color='#008000'>MK1 loadout</t>",
 				{
+
 				comment "Remove existing items";
 				removeAllWeapons player;
 				removeAllItems player;
@@ -101,11 +102,13 @@ gearupstand addAction
 				removeGoggles player;
 
 				comment "Add containers";
-				player forceAddUniform "U_B_GEN_Soldier_F";
+				player forceAddUniform "U_B_GEN_Commander_F";
 				for "_i" from 1 to 2 do {player addItemToUniform "FirstAidKit";};
-				for "_i" from 1 to 2 do {player addItemToUniform "20Rnd_762x51_Mag";};
+				player addItemToUniform "20Rnd_762x51_Mag";
 				player addVest "V_TacVest_blk_POLICE";
 				for "_i" from 1 to 8 do {player addItemToVest "20Rnd_762x51_Mag";};
+				player addBackpack "B_Messenger_Black_F";
+				for "_i" from 1 to 6 do {player addItemToBackpack "20Rnd_762x51_Mag";};
 				player addHeadgear "H_Cap_police";
 				player addGoggles "G_Combat";
 
@@ -122,6 +125,7 @@ gearupstand addAction
 				player linkItem "ItemRadio";
 				player linkItem "ItemGPS";
 				player linkItem "NVGoggles_OPFOR";
+
 
 				comment "Disable fatigue if it's not already";
 				player enableFatigue False;  
