@@ -49,7 +49,7 @@ gearupstand addAction
 	
 gearupstand addAction
 				[
-					"<t color='#008000'>MK18 loadout</t>";
+					"<t color='#008000'>MK18 loadout</t>",
 				{
 					comment "Remove existing items";
 					removeAllWeapons player;
@@ -93,7 +93,7 @@ gearupstand addAction
 
 gearupstand addAction
 				[
-					"<t color='#FF0000'>Teleport to OG arms</t>";
+					"<t color='#FF0000'>Teleport to OG arms</t>",
 				{
 					comment "Teleport to OG arms";
 					player setPos [11206,8720.36,0];
@@ -101,7 +101,7 @@ gearupstand addAction
 
 gearupstand addAction
 			[
-				"<t color='#FF0000'>Teleport to Drug peninsula</t>";
+				"<t color='#FF0000'>Teleport to Drug peninsula</t>",
 			{
 				comment "Teleport to Drug";
 				player setPos [14257.2,13032.5,0];
@@ -110,7 +110,7 @@ gearupstand addAction
 
 gearupstand addAction
 				[
-					"<t>ARCO scope</t>";
+					"<t>ARCO scope</t>",
 				{
 					comment "Sets optic to ARCO";
 					player addPrimaryWeaponItem "optic_Hamr";
@@ -118,7 +118,7 @@ gearupstand addAction
 
 gearupstand addAction
 				[
-					"<t>MRCO scope</t>";
+					"<t>MRCO scope</t>",
 				{
 					comment "Sets optic to MRCO";
 					player addPrimaryWeaponItem "optic_MRCO";
@@ -127,7 +127,7 @@ gearupstand addAction
 
 gearupstand addAction
 				[
-					"<t>RCO scope</t>";
+					"<t>RCO scope</t>",
 				{
 					comment "Sets optic to RCO"
 					player addPrimaryWeaponItem "optic_Rco_blk_F";
