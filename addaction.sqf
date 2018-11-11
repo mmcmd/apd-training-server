@@ -5,7 +5,7 @@ gearupStand = "Land_InfoStand_V2_F" createVehicle position player;
 switch do {
 	case 1 : {
 				[
-					"<t color='#008000'>MK1 loadout</t>", 
+					"<t color='#008000'>MK1 loadout</t>";
 				{
 					comment "Remove existing items";
 					removeAllWeapons player;
@@ -51,7 +51,7 @@ switch do {
 	
 	case 2 : {
 				[
-					"<t color='#008000'>MK18 loadout</t>", 
+					"<t color='#008000'>MK18 loadout</t>";
 				{
 					comment "Remove existing items";
 					removeAllWeapons player;
@@ -97,7 +97,7 @@ switch do {
 
 	case 3 : {
 				[
-					"<t color='#FF0000'>Teleport to OG arms</t>",
+					"<t color='#FF0000'>Teleport to OG arms</t>";
 				{
 					comment "Teleport to OG arms";
 					player setPos [11206,8720.36,0];
@@ -107,7 +107,7 @@ switch do {
 
 	case 4 : {
 			[
-				"<t color='#FF0000'>Teleport to Drug peninsula</t>",
+				"<t color='#FF0000'>Teleport to Drug peninsula</t>";
 			{
 				comment "Teleport to Drug";
 				player setPos [14257.2,13032.5,0];
@@ -117,7 +117,7 @@ switch do {
 
 	case 5 : {
 				[
-					"<t>ARCO scope</t>",
+					"<t>ARCO scope</t>";
 				{
 					comment "Sets optic to ARCO";
 					player addPrimaryWeaponItem "optic_Hamr";
@@ -127,7 +127,7 @@ switch do {
 
 	case 6 : {
 				[
-					"<t>MRCO scope</t>",
+					"<t>MRCO scope</t>";
 				{
 					comment "Sets optic to MRCO";
 					player addPrimaryWeaponItem "optic_MRCO";
@@ -137,7 +137,7 @@ switch do {
 
 	case 7 : {
 				[
-					"<t>RCO scope</t>",
+					"<t>RCO scope</t>";
 				{
 					comment "Sets optic to RCO"
 					player addPrimaryWeaponItem "optic_Rco_blk_F";
