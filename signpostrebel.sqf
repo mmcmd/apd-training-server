@@ -110,7 +110,7 @@ gearupstand addAction
 
 gearupstand addAction
 				[
-					"<t>ARCO scope</t>",
+					"<t color='#49311C'>ARCO scope</t>",
 				{
 					comment "Sets optic to ARCO";
 					player addPrimaryWeaponItem "optic_Arco_blk_F";
@@ -118,7 +118,7 @@ gearupstand addAction
 
 gearupstand addAction
 				[
-					"<t>MRCO scope</t>",
+					"<t color='#49311C'>MRCO scope</t>",
 				{
 					comment "Sets optic to MRCO";
 					player addPrimaryWeaponItem "optic_MRCO";
@@ -127,7 +127,7 @@ gearupstand addAction
 
 gearupstand addAction
 				[
-					"<t>RCO scope</t>",
+					"<t color='#49311C'>RCO scope</t>",
 				{
 					comment "Sets optic to RCO";
 					player addPrimaryWeaponItem "optic_Rco_blk_F";
