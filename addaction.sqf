@@ -1,4 +1,4 @@
-gearupStand = "Flag_US_F" createVehicle position player;
+gearupStand = "Land_InfoStand_V2_F" createVehicle position player;
 
 
 gearupStand addAction 
@@ -105,7 +105,7 @@ gearupStand addAction
 		{
 			comment "Sets optic to MRCO";
 			player addPrimaryWeaponItem "optic_MRCO";
-		}
+		},
 		"<t>RCO scope</t>"
 		{
 			comment "Sets optic to RCO"
