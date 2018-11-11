@@ -113,7 +113,7 @@ gearupstand addAction
 					"<t>ARCO scope</t>",
 				{
 					comment "Sets optic to ARCO";
-					player addPrimaryWeaponItem "optic_Hamr";
+					player addPrimaryWeaponItem "optic_Arco_blk_F";
 				}];
 
 gearupstand addAction
