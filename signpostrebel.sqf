@@ -130,7 +130,7 @@ gearupstand addAction
 					"<t color='#49311C'>RCO scope</t>",
 				{
 					comment "Sets optic to RCO";
-					player addPrimaryWeaponItem "optic_Rco_blk_F";
+					player addPrimaryWeaponItem "optic_hamr";
 				}];
 
 
