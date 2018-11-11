@@ -136,7 +136,7 @@ gearupstand addAction
 					"<t color='#FF0000'>Teleport to OG arms</t>",
 				{
 					comment "Teleport to OG arms";
-					player setPos [11206,8720.36,0];
+					player setPos [10984,7650.01,0];
 				}];
 
 gearupstand addAction
@@ -144,7 +144,7 @@ gearupstand addAction
 					"<t color='#FF0000'>Teleport to Drug peninsula</t>",
 				{
 					comment "Teleport to Drug";
-					player setPos [14257.2,13032.5,0];
+					player setPos [11711.5,11810,0];
 				}];
 
 
