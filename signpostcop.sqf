@@ -1,6 +1,8 @@
 gearupstand = "Land_InfoStand_V2_F" createVehicle [15195.2,17337,-3.8147e-006];
 
 
+
+
 gearupstand addAction
 				[
 					"<t color='#008000'>MX loadout</t>",
