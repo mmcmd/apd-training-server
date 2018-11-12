@@ -1,8 +1,6 @@
 
 gearupstand = "Land_InfoStand_V2_F" createVehicle position player;
 
-
-
 gearupstand addAction
 	[
 		"<t color='#008000'>MK1 loadout</t>",
