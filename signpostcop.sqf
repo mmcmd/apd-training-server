@@ -1,4 +1,4 @@
-gearupstand = "Land_InfoStand_V2_F" createVehicle [15195.2,17337,-3.8147e-006];
+gearupstand = "Land_InfoStand_V2_F" createVehicle position player;
 
 
 
@@ -153,6 +153,13 @@ gearupstand addAction
 					player setPos [11711.5,11810,0];
 				}];
 
+gearupstand addAction
+				[
+					"<t color='#FF0000'>Teleport to Church</t>",
+				{
+					comment "Teleport to Church";
+					player setPos [9190.65,8489.92,0];
+				}];
 
 gearupstand addAction
 				[

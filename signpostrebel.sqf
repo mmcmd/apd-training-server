@@ -98,6 +98,14 @@ gearupstand addAction
 				}];
 
 gearupstand addAction
+				[
+					"<t color='#FF0000'>Teleport to Church</t>",
+				{
+					comment "Teleport to OG arms";
+					player setPos [8906.24,7488.8,0];
+				}];
+
+gearupstand addAction
 			[
 				"<t color='#FF0000'>Teleport to Drug peninsula</t>",
 			{
